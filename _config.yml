@@ -29,16 +29,16 @@ github:
   username: emmanuellfc # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: emmanuell_fc # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Emmanuel Flores
-  email: example@domain.com # change to your email address
+  email: eq.emmanuel.137@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    - https://twitter.com/emmanuell_fc # change to your twitter homepage
     - https://github.com/emmanuellfc # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -76,7 +76,7 @@ theme_mode: # [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/Profile_Pic.jpeg"
+avatar: "/commons/avatar.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
