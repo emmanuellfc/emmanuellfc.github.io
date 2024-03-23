@@ -34,7 +34,7 @@ and it's also important to say that every one of the elements in the OF free ene
 
 - Splay: $\rightarrow K_{1}(\nabla\cdot\mathbf{n})^2.$
 - Twist: $\rightarrow K_{2}(\mathbf{n}\cdot\nabla\times\mathbf{n})^2$
-- Bend: $\rightarrow K_{3}|\mathbf{n}\wedge\nabla\times\mathbf{n}|^{2}$
+- Bend: $\rightarrow K_{3}(\mathbf{n}\wedge\nabla\times\mathbf{n})^{2}$
 - Saddle Splay (Null Lagrangian): $(K_{2} + K_{4})[tr(\nabla\mathbf{n})^{2} - (\nabla\cdot\mathbf{n})^2]$
 
 On the other hand, the integral of the last term, i.e., the integral of the saddle splay
