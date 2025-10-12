@@ -38,11 +38,11 @@ social:
   email: eq.emmanuel.137@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/emmanuell_fc # change to your twitter homepage
+    # - https://twitter.com/emmanuell_fc # change to your twitter homepage
     - https://github.com/emmanuellfc # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/emmanuel-flores-82799915a/
 
 google_site_verification: # fill in to your verification string
 
