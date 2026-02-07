@@ -1,0 +1,79 @@
+/* Custom Font Overrides for Emmanuel Flores Site */
+
+/*
+ * Font Stack Explanation:
+ * - Helvetica Neue: Modern version of Helvetica (macOS)
+ * - Helvetica: Classic sans-serif (macOS/iOS)
+ * - Arial: Similar sans-serif (Windows/Linux)
+ * - sans-serif: System default fallback
+ */
+
+/* Body text, paragraphs, and general content */
+body,
+p,
+article,
+.post-content,
+.page-content {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.page-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600; /* Slightly bolder for headings */
+}
+
+/* Navigation and UI elements */
+nav,
+.sidebar,
+.navbar,
+button,
+.btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+ * Monospace Font Stack for Code:
+ * - SF Mono: Apple's monospaced font (macOS)
+ * - Monaco: Alternative macOS monospace
+ * - Consolas: Windows monospace
+ * - Liberation Mono: Linux monospace
+ * - Courier New: Universal fallback
+ * - monospace: System default
+ */
+
+/* Code blocks and inline code */
+code,
+pre,
+.highlight,
+kbd,
+samp,
+tt,
+var {
+  font-family: "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em; /* Slightly smaller for better readability */
+}
+
+/* Specific adjustments for code blocks */
+pre code {
+  font-family: "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 1.5; /* Better spacing in code blocks */
+}
+
+/* Inline code styling */
+code:not(pre code) {
+  font-family: "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* Terminal/console specific styling */
+.language-console,
+.language-terminal,
+.language-bash,
+.language-shell {
+  font-family: "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
